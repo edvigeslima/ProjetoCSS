@@ -1,0 +1,56 @@
+/* Tags */
+body {
+    text-align: center;
+    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+    color: darkviolet;
+}
+
+ul {
+    border: 1px solid black;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+p {
+    text-align: justify;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    /* Tirar o sublinhado de link */
+    color: blueviolet;
+}
+
+/* ID */
+#login {
+    background-color: black;
+    color: white;
+}
+
+/* Classe */
+.copy {
+    font-size: 8px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.list_footer {
+    border: none;
+    list-style: none;
+    /* Tirar o marcador de lista */
+    display: flex;
+    justify-content: center;
+}
+
+.row_footer {
+    padding: 10px;
+}
